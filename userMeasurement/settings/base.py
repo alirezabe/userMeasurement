@@ -71,18 +71,21 @@ DATABASES = {
     'user_db': {
         'NAME': 'user_db',
         'ENGINE': 'django.db.backends.postgresql',
+        'HOST': '127.0.0.1',
         'USER': 'postgres',
         'PASSWORD': '123456'
     },
     'measurement_db': {
         'NAME': 'measurement_db',
         'ENGINE': 'django.db.backends.postgresql',
+        'HOST': '127.0.0.1',
         'USER': 'postgres',
         'PASSWORD': '123456'
     },
     'primary_db': {
         'NAME': 'project_db',
         'ENGINE': 'django.db.backends.postgresql',
+        'HOST': '127.0.0.1',
         'USER': 'postgres',
         'PASSWORD': '123456'
     }
